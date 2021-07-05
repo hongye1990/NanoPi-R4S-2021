@@ -48,6 +48,13 @@ svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome
 svn co https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-smartdns
 svn co https://github.com/281677160/openwrt-package/trunk/feeds/packages/net/smartdns
 
+# Moschinadns
+svn co https://github.com/QiuSimons/openwrt-packages/branches/main/mos-chinadns package/new/mos-chinadns
+svn co https://github.com/QiuSimons/openwrt-packages/branches/main/luci-app-moschinadns package/new/luci-app-moschinadns
+# Mosdns
+svn co https://github.com/QiuSimons/openwrt-mos/trunk/mosdns package/new/mosdns
+svn co https://github.com/QiuSimons/openwrt-mos/trunk/luci-app-mosdns package/new/luci-app-mosdns
+
 # Add luci-app-diskman
 git clone --depth=1 https://github.com/SuLingGG/luci-app-diskman
 mkdir parted
